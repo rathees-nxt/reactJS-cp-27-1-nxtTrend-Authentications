@@ -1,0 +1,89 @@
+/* Write your CSS code here */
+.home-container {
+  height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fashion-container {
+  width: 90%;
+  padding: 20px;
+}
+.fashion-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+  font-family: roboto;
+  margin-top: 20px;
+}
+.image1 {
+  height: 200px;
+  width: 250px;
+}
+.para {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+  font-family: roboto;
+  margin-top: 20px;
+}
+.submit-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.image2 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding: 20px 30px;
+  }
+  .fashion-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .image2 {
+    display: flex;
+    height: 300px;
+    width: 300px;
+  }
+  .image1 {
+    display: none;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .para {
+    font-size: 24px;
+  }
+  .fashion-content{
+    padding: 10px;
+    width: 350px;
+  }
+}
+@media screen and (min-width:992px){
+  .heading{
+    font-size: 48px;
+  }
+  .para{
+    font-size: 28px;
+  }
+  .fashion-content{
+    width: 500px;
+  }
+  .image2{
+    height: 450px;
+    width: 450px;
+  }
+}
